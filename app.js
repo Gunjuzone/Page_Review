@@ -41,8 +41,18 @@ const nextBtn = document.querySelector('.next-btn');
 const randomBtn = document.querySelector('.random-btn');
 
 // Set starting item
-let currentItem = 0;
+let currentItem = 3;
+
+// Whenever the document is load, item from the review array is loaded and DOMContentLoaded is used.
 
 window.addEventListener('DOMContentLoaded', function () {
-  console.log('DOM fully added');
+  showContent(currentItem);
 });
+
+function showContent(reviewer) {
+  const item = reviews[reviewer];
+  img.src = item.img;
+  author.textContent = item.name;
+  job.textContent = item.job;
+  text.textContent = text.author;
+}
