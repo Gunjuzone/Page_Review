@@ -19,10 +19,35 @@ Global Styles
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  background: hsl(210, 36%, 96%);
+  background: hsl(333, 90%, 47%);
   color: hsl(209, 61%, 16%);
   line-height: 1.5;
   font-size: 0.875rem;
+}
+
+nav {
+  background: rgb(172, 127, 127);
+  height: 3rem;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.nav-center {
+  width: 90vw;
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-center h4 {
+  margin-bottom: 0;
+  color: #000;
+  font-size: 1.3rem;
+  display: block;
 }
 
 ul {
@@ -42,6 +67,7 @@ h4 {
 }
 h2 {
   font-size: 2rem;
+  margin-top: 114px;
 }
 h4 {
   font-size: 0.875rem;
@@ -90,7 +116,7 @@ Reviews
 ===============
 */
 main {
-  min-height: 100vh;
+  min-height: 100%;
   display: grid;
   place-items: center;
 }
