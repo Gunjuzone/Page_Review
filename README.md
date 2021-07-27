@@ -2,9 +2,8 @@
 
 This is a simple Vanilla JavaScript Project. Knowledge of DOM Manipulation and JavaScript methods were used to make a simple webpage change that increases the changes the value of counter whenevr a button is click. There is also a reset button to rest the button clicked.
 
-- ![screenshot](./Assets/reset.png)
-- ![screenshot](./Assets/increase.png)
-- ![screenshot](./Assets/decrease.png)
+- ![screenshot](./Assets/mobile.png)
+- ![screenshot](./Assets/tablet.png)
 
 ## :red_circle: Live Demo
 
