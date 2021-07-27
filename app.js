@@ -76,8 +76,7 @@ prevBtn.addEventListener('click', function () {
 });
 
 randomBtn.addEventListener('click', function () {
-  let reviewArr = '';
-  for (let i = 0; i < reviews.length[i]; i++) {
-    reviewArr += reviews[1]
-   
+  currentItem = Math.floor(Math.random() * reviews.length);
+  console.log(currentItem);
+  showContent(currentItem);
 });
