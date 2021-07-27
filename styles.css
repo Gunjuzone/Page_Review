@@ -31,9 +31,8 @@ ul {
 a {
   text-decoration: none;
 }
-h1,
+
 h2,
-h3,
 h4 {
   letter-spacing: 0.1rem;
   text-transform: capitalize;
@@ -41,14 +40,8 @@ h4 {
   margin-bottom: 0.75rem;
   font-family: 'Roboto', sans-serif;
 }
-h1 {
-  font-size: 3rem;
-}
 h2 {
   font-size: 2rem;
-}
-h3 {
-  font-size: 1.25rem;
 }
 h4 {
   font-size: 0.875rem;
@@ -58,14 +51,8 @@ p {
   color: hsl(210, 22%, 49%);
 }
 @media screen and (min-width: 767px) {
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
+  h1 h2 {
     font-size: 2.5rem;
-  }
-  h3 {
-    font-size: 1.75rem;
   }
   h4 {
     font-size: 1rem;
@@ -73,9 +60,8 @@ p {
   body {
     font-size: 1rem;
   }
-  h1,
+
   h2,
-  h3,
   h4 {
     line-height: 1;
   }
@@ -150,7 +136,7 @@ main {
   border-radius: 50%;
   position: relative;
 }
-.img-container::after {
+/* .img-container::after {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   content: '\f10e';
@@ -160,13 +146,13 @@ main {
   width: 2.5rem;
   height: 2.5rem;
   display: grid;
-  place-items: center;
+  place-items: center;'[;
   border-radius: 50%;
   transform: translateY(25%);
   background: hsl(210, 22%, 49%);
   color: #fff;
-}
-.img-container::before {
+} */
+/* .img-container::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -175,7 +161,7 @@ main {
   top: -0.25rem;
   right: -0.5rem;
   border-radius: 50%;
-}
+} */
 
 #author {
   margin-bottom: 0.25rem;
@@ -183,7 +169,7 @@ main {
 #job {
   margin-bottom: 0.5rem;
   text-transform: uppercase;
-  color: hsl(210, 22%, 49%);
+  color: hsl(205, 78%, 60%);
   font-size: 0.85rem;
 }
 #info {

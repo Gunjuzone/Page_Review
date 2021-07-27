@@ -4,7 +4,7 @@ const reviews = [
     id: 1,
     name: 'susan smith',
     job: 'web developer',
-    img: './Assets/person-1.jpeg',
+    img: './Assets/person-6.jfif',
     text: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
   },
   {
@@ -18,14 +18,14 @@ const reviews = [
     id: 3,
     name: 'peter jones',
     job: 'intern',
-    img: './Assets/person-4.jfif',
+    img: './Assets/person-8.jfif',
     text: 'Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.',
   },
   {
     id: 4,
     name: 'bill anderson',
     job: 'the boss',
-    img: './Assets/person-5.jfif',
+    img: './Assets/person-7.jfif',
     text: 'Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ',
   },
 ];
@@ -41,7 +41,7 @@ const nextBtn = document.querySelector('.next-btn');
 const randomBtn = document.querySelector('.random-btn');
 
 // Set starting item
-let currentItem = 3;
+let currentItem = 1;
 
 // Whenever the document is load, item from the review array is loaded and DOMContentLoaded is used.
 
@@ -54,5 +54,30 @@ function showContent(reviewer) {
   img.src = item.img;
   author.textContent = item.name;
   job.textContent = item.job;
-  text.textContent = text.author;
+  info.textContent = item.text;
 }
+
+// Add EventListners to the next and prev buttons
+
+nextBtn.addEventListener('click', function () {
+  currentItem++;
+  if (currentItem > reviews.length - 1) {
+    currentItem = 0;
+  }
+  showContent(currentItem);
+});
+
+prevBtn.addEventListener('click', function () {
+  currentItem--;
+  if (currentItem < 0) {
+    currentItem = reviews.length - 1;
+  }
+  showContent(currentItem);
+});
+
+randomBtn.addEventListener('click', function () {
+  let reviewArr = '';
+  for (let i = 0; i < reviews.length[i]; i++) {
+    reviewArr += reviews[1]
+   
+});
