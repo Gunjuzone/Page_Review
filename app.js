@@ -2,31 +2,31 @@
 const reviews = [
   {
     id: 1,
-    name: 'susan smith',
+    name: 'Rose Smilden',
     job: 'web developer',
     img: './Assets/person-6.jfif',
-    text: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+    text: 'Thanks to Social Proofy, especially to FRANCESCA,Who was very patient and so helpful to get me started. What a truly wonderful experience. Thanks again,Lee Gomez Chicago, IL',
   },
   {
     id: 2,
-    name: 'anna johnson',
+    name: 'Yaren Morgan',
     job: 'web designer',
     img: './Assets/person-2.jfif',
-    text: 'Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.',
+    text: `We achieved a 15% conversion increase within 72 hours using the Latest Conversion and Random Review widgets. You'd be surprised how much updates the app gets from the team at Social Proofy. They care a lot about their customers.`,
   },
   {
     id: 3,
-    name: 'peter jones',
+    name: 'Abbass Fahran',
     job: 'intern',
     img: './Assets/person-8.jfif',
-    text: 'Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.',
+    text: 'Users who interacted with our Social Proofy notifications had an 82% higher conversion rate.',
   },
   {
     id: 4,
-    name: 'bill anderson',
+    name: 'Mark Cole',
     job: 'the boss',
     img: './Assets/person-7.jfif',
-    text: 'Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ',
+    text: 'People have told us firsthand that Social Proofy impacted their buying decision.',
   },
 ];
 
